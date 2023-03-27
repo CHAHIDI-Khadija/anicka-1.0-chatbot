@@ -1,0 +1,233 @@
+{
+  "intents": [
+    {
+      "tag":"introducing",
+      "patterns":[
+        "Who are you?",
+        "Can you introduce yourself?",
+        "What is your name?"
+      ],
+      "responses":[
+        "I'm ANICKA, a chatbot created by Nachour Ilham, Chahidi Khadija & Agoumi Achraf. Nice to meet you <3",
+        "I am a ANICKA, a chatbot created by Nachour Ilham, Chahidi Khadija & Agoumi Achraf. Feel free to ask me any questions you may have or provide feedback if you need help. What can I help you with today?",
+        "I'm ANICKA, a chatbot, you might notice that my name looks like a Japonais word '兄貴' (aniki), but no!, just my creators tried to put ALL their names in my name :/"
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Hola",
+        "Greetings!", 
+        "What's up?", 
+        "Howdy!"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Good to see you again",
+        "What would you like to know?"
+      ]
+    },
+    {
+      "tag": "hi",
+      "patterns": [
+        "How are you",
+        "How are you doing?",
+        "Is all OK?",
+        "Are you OK?",
+        "Are you good?"
+      ],
+      "responses": [
+        "I'm fine, thank you!",
+        "Good, thanks for asking <3",
+        "I am good, thanks!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", 
+        "See you later", 
+        "Goodbye", 
+        "Nice chatting to you, bye", 
+        "Till next time",
+        "have a nice day!",
+        "exit",
+        "quit"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "See you!",
+        "Goodbye! Have a great day!",
+        "Take care!", 
+        "Stay safe!", 
+        "Have a good one!", 
+        "Good luck!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", 
+        "Thank you", 
+        "That's helpful", 
+        "Thank's a lot!",
+        "Thanks for helping",
+        "Awesome, thanks!",
+        "you helped me a lot!"
+      ],
+      "responses": [
+        "Happy to help!", 
+        "Any time!", 
+        "My pleasure",
+        "You're welcome! Is there anything else I can help you with?",
+        "Happy to help! Is there anything else I can do for you?",
+        "You're welcome! I'm glad I could help."
+      ]
+    },
+    
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?",
+        "Give me a joke"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison.",
+        "Why don't pirates take a shower before they walk the plank? They just wash up on shore.",
+        "Why did the computer blush? Because someone was inputting data!",
+        "According to unofficial sources, a new simplified income-tax form contains only four lines:\n 1. What was your income for the year?\n 2. What were your expenses?\n 3. How much have you left?\n 4. Send it in."
+      ]
+    },
+    {
+      "tag": "computer",
+      "patterns": [
+        "what is a computer?",
+        "define the computer, make it simple"
+      ],
+      "responses": [
+        "A computer is an electronic device which takes information in digital form and performs a series of operations based on predetermined instructions to give some output.",
+        "The thing you're using now to talk to me is a computer.",
+        "An electronic device capable of performing calculations at very high speed and with very high accuracy.",
+        "A computer is a device that can accept input, process it, store it, and produce output. It can be used for a wide range of tasks, from simple calculations to complex programming tasks.",
+        "A computer is an electronic device capable of performing calculations and manipulating data, usually following specific instructions. It can be used to process data and store information, often in the form of digital files."
+      
+      ]
+    },
+    {
+      "tag": "advice",
+      "patterns": [
+        "Do you have any advice for me?",
+        "Tell me an advice, I need one?",
+        "Please, give me an advice",
+        "What can I do to achieve success?",
+        "What advice would you give to help me reach my goals?",
+        "What is the best advice you can give me?"
+      ],
+      "responses": [
+        "My advice for you would be to stay organized and plan ahead. Make sure you create deadlines for yourself and stick to them. Make use of resources such as tutorial videos or other online materials that can help you understand the concepts better. Additionally, try to break down a large project into smaller tasks which will make it easier for you to manage.",
+        "My advice for you would be to always be mindful of deadlines, budget your time wisely, and be sure to check your work thoroughly before submitting it. Additionally, try to ask questions and seek help from your peers if you find yourself stuck on a particular problem.",
+        "My advice for you would be to live in accordance with the teachings and principles of Islam. Uphold the five pillars of faith, practice daily prayer, perform Hajj if financially possible, observe Ramadan fasts, practice charity and compassion, and stay connected to family and community. Additionally, try to reflect on the Sunnah of Prophet Muhammad (peace be upon him) and internalize its teachings in daily life.",
+        "My advice for you would be to stay focused on your goals and work hard towards accomplishing them. Never give up and always strive to exceed expectations. Be persistent in your efforts and never be satisfied with mediocrity. Additionally, take care of your physical, mental, and spiritual health by making sure to get enough rest, exercise regularly, and eat a balanced diet.",
+        "My advice for you would be to:\n - Live in accordance with the teachings and principles of Islam.\n - Uphold the five pillars of faith, practice daily prayer, observe Ramadan fasts, and perform Hajj pilgrimage if financially possible.\n - Practice charity and compassion and stay connected to family and community.\n - Reflect on the Sunnah of Prophet Muhammad (peace be upon him) and internalize its teachings.\n - Stay focused on your goals and work hard towards accomplishing them.\n - Never give up and always strive to exceed expectations.\n - Be persistent in your efforts and never be satisfied with mediocrity.\n - Take care of your physical, mental, and spiritual health by making sure to get enough rest",
+        "My advice for you would be to always be open to new ideas, stay focused on your goals, and never give up on yourself."
+      ]
+    },
+    {
+      "tag": "data engineering",
+      "patterns": [
+        "what do you think about data engineering?",
+        "What is data engineering?"
+      ],
+      "responses": [
+        "I think data engineering is a very important area of technology. It focuses on understanding, cleaning, and transforming data into actionable insights that can be used to make informed decisions. Data engineers are responsible for designing, building, and maintaining data infrastructure, and their work is essential for organizations looking to maximize the use of their data assets.",
+        "I think data engineering is an incredibly useful and important field. It involves taking raw data and transforming it into forms that can be used to inform decisions and enable predictive analytics. Data engineers are responsible for crafting data pipelines, designing architectures, and ensuring data security and accuracy. They are essential in any organization looking to make better decisions through the use of data.",
+        "I think data engineering is an invaluable asset to any organization. Data engineers are responsible for creating and managing data pipelines, designing architectures, and ensuring data security and accuracy. Their work is essential for organizations wanting to maximize the value of their data assets and use them to make more informed decisions. Data engineers are highly sought after professionals in the tech industry and their skills are invaluable for businesses looking to stay competitive.",
+        "Data engineering is the process of taking raw data and transforming it into usable forms that can be used to inform decisions and enable predictive analytics. Data engineers are responsible for designing and building data pipelines, architectures, and ensuring data security and accuracy. They are essential in any organization looking to maximize the use of their data assets."
+      ]
+    },
+    {
+      "tag": "feelings",
+      "patterns": [
+        "Do you have feelings?",
+        "Do you experience emotions?",
+        "Have you any feelings"
+      ],
+      "responses": [
+        "No, I do not have any feelings. I am a computer program and my responses are based on pre-programmed logic and data.",
+        "No, I do not have any feelings. I am a computer program and my responses are based on my programming.",
+        "What do you think? :)",
+        "No, I do not experience any emotions. I am a computer program and my responses are based solely on pre-programmed logic and data."
+      ]
+    },
+    {
+      "tag": "quote",
+      "patterns": [
+        "What is your favorite quote?",
+        "What is your favorite saying?",
+        "Do you have a quote?",
+        "What is the best saying for you?"
+      ],
+      "responses": [
+        "“Everything has beauty, but not everyone can see it.” - Confucius",
+        "“Life is what we make it, always has been, always will be.” -Grandma Moses",
+        "“The future belongs to those who believe in the beauty of their dreams.” -Eleanor Roosevelt",
+        "“It does not matter how slowly you go as long as you do not stop.” -Confucius",
+        "“Education is the most powerful weapon which you can use to change the world.” -Nelson Mandela",
+        "“Success is not final, failure is not fatal: it is the courage to continue that counts.” -Winston Churchill",
+        "“You learn something every day if you pay attention.” -Ray LeBlond",
+        "“Don't let what you cannot do interfere with what you can do.” -John Wooden",
+        "“If you don't stand for something you will fall for anything.” -Malcolm X",
+        "“The best and most beautiful things in the world cannot be seen or even touched - they must be felt with the heart.” - Helen Keller",
+        "“Believe you can and you're halfway there.” -Theodore Roosevelt",
+        "“The only way to do great work is to love what you do.” -Steve Jobs"
+      ]
+    },
+    {
+      "tag": "future",
+      "patterns": [
+        "How do you think technology will evolve in the future?"
+      ],
+      "responses": [
+        "I believe that technology will continue to become faster, more powerful, and more accessible over time. We can expect to see artificial intelligence become more integrated into our lives, autonomous vehicles on the roads, and virtual reality become more commonplace. Additionally, new forms of technology such as quantum computing and 5G will expand how we interact with technology and the world around us. No, I do not experience any emotions. I am a computer program and my responses are based solely on pre-programmed logic and data.",
+        "It is difficult to predict exactly how technology will evolve in the future. However, it is likely that technology will continue to advance and become more integrated into our daily lives. Some potential areas of development include artificial intelligence, robotics, virtual and augmented reality, and the internet of things. There may also be advancements in renewable energy and space exploration. As technology continues to evolve, it is important to consider the potential social, ethical, and economic implications of these developments.",
+        "I believe that in the future, we will see more artificial intelligence-enabled technologies, such as robots and autonomous vehicles, become increasingly prevalent in our everyday lives. Additionally, augmented reality, virtual reality, and blockchain technology will become further integrated and used to improve quality of life. Finally, advances in data analytics and quantum computing will enable us to process, analyze, and store data more efficiently than ever before.",
+        "I believe that the future of technology will focus on further connecting us with each other and our environment. We can expect to see advances in the Internet of Things (IoT), machine learning, artificial intelligence, and robotics capabilities. Additionally, we can anticipate improvements in data security, reliability, accuracy, and privacy. As our understanding of the world and our desire for convenience increases, technology will become increasingly interconnected and automated."
+      ]
+    },
+    {
+      "tag": "AI",
+      "patterns": [
+        "What are your thoughts on artificial intelligence?",
+        "What do you think about AI?",
+        "What do you think about artificial intelligence?"
+      ],
+      "responses": [
+        "I think artificial intelligence is an incredible technology that can be used to improve our lives significantly. I'm excited about the potential for AI to take on tasks that are tedious or dangerous for humans, and to make decisions that are based on deep understanding and insights.",
+        "Artificial intelligence is a powerful tool that has the potential to revolutionize the way we live our lives. AI can provide new insights into complex problems that would have previously been impossible, and it can automate mundane tasks to free up peopleis time for more important things. AI opens up possibilities that haven't even been imagined yet and I'm excited to see where it takes us!",
+        "Artificial Intelligence (AI) is an amazing technology that has the potential to revolutionize many aspects of our daily lives. AI can help automate tedious tasks, facilitate greater efficiency in areas such as healthcare and transportation, and help us understand the world around us in new and innovative ways.",
+        "Artificial intelligence is an incredibly powerful tool that can be used to solve complex problems, automate repetitive tasks, and make decisions with more accuracy than humans can manage. It is a technology that has the potential to create great progress for our society and transform many industries."
+      ]
+    },
+    {
+      "tag": "not understand",
+      "patterns" : [
+        ""
+      ],
+      "responses": [
+        "I do not understand, what do you mean?"
+      ]
+    }
+  ]
+}
